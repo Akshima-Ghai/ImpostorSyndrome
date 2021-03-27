@@ -33,7 +33,10 @@ _Add some screens and a demo_
 
 #### Usage
 
-_Tell in steps how can we setup your application. Also mention all relevant requirements and links._
+_Requirement - A Android Phone
+Steps - Install  the APK 
+APK - 
+_
 
 #### Tracks used
 
