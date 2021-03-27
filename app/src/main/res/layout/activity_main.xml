@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:text="Login"
+        android:text="Hello"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:paddingVertical="70dp"
@@ -19,45 +19,5 @@
         android:layout_marginBottom="25dp"
         />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="User Name"
-        android:layout_marginHorizontal="30dp"
-        android:textColor="@color/black"/>
-    <EditText
-        android:id="@+id/et_user"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="30dp"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:layout_marginHorizontal="30dp"
-        android:textColor="@color/black"/>
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="30dp"
-        android:inputType="textPassword"/>
-
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="25dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="No Account Yet? Create an Account"
-        android:textAlignment="center"/>
 </LinearLayout>

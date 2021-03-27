@@ -16,43 +16,39 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class SignUp extends AppCompatActivity {
-
-    EditText etName,etEmail,etPwd,etCnfPwd;
-    Button btnSignup;
+public class Login extends AppCompatActivity {
+    EditText etEmail,etPassword;
+    Button btnLogin;
     FirebaseAuth fAuth;
-    @Override
-    protected void onCreate(Bundle savedInstance){
-        super.onCreate(savedInstance);
-        setContentView(R.layout.signup);
 
-        etName = findViewById(R.id.et_name);
-        etEmail= findViewById(R.id.et_email);
-        etPwd = findViewById(R.id.et_pwd);
-        etCnfPwd = findViewById(R.id.et_cnf_pwd);
-        btnSignup = findViewById(R.id.btn_signup);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.login);
+
+        etEmail = findViewById(R.id.et_email_login);
+        etPassword = findViewById(R.id.et_password_login);
+
+
+        btnLogin = findViewById(R.id.btn_login);
         fAuth = FirebaseAuth.getInstance();
 
-        if (fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
-            finish();
-        }
 
-        btnSignup.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email = etEmail.getText().toString().trim();
-                String password = etPwd.getText().toString().trim();
+                String password = etPassword.getText().toString().trim();
                 if (TextUtils.isEmpty(email)){
                     etEmail.setError("Email is required");
                     return;
                 }
                 if (TextUtils.isEmpty(password)){
-                    etPwd.setError("Password is required");
+                    etPassword.setError("Password is required");
                     return;
                 }
                 if (password.length()<6){
-                    etPwd.setError("Password must be greater than 6 characters");
+                    etPassword.setError("Password must be greater than 6 characters");
                     return;
                 }
 
@@ -60,14 +56,17 @@ public class SignUp extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
-                            Toast.makeText(SignUp.this,"User Created",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Login.this,"Logged In",Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         }else {
-                            Toast.makeText(SignUp.this,"Error "+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Login.this,"Error "+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
-        }
-    });
-};
+            }
+        });
+
+
+
+    }
 }

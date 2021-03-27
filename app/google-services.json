@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488912855209",
+    "project_id": "impostorsyndrome-827b1",
+    "storage_bucket": "impostorsyndrome-827b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488912855209:android:8bdf3fdaf57d54518f09b8",
+        "android_client_info": {
+          "package_name": "com.example.impostorsyndrome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488912855209-9f1ma8p00pa195o3daosrr3tm6ora7co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVGgZNlXx3vTY0w8yz_Zi2wR6udl5i1CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488912855209-9f1ma8p00pa195o3daosrr3tm6ora7co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
