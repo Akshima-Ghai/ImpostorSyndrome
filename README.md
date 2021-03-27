@@ -14,7 +14,14 @@ the online hackathon conducted by Codefest, the annual departmental fest of Comp
 
 #### Overview
 
-_Explain about your project, the vision behind it and how it helps enhance lifestyle, etc._
+_OVERVIEW:
+The idea is to build a conversational app for people suffering from impostor syndrome, especially women. It would evaluate and provide scores on the basis of the user’s response, thereby paving a way  for them to overcome it. 
+
+VISION:
+The goal is to help users recognize if they have the syndrome through sentiment analysis . if yes, then help them further with getting over perfectionism .
+
+HOW IT WILL IMPACT LIFESTYLE?
+Talking would be of great help to users as they will learn to acknowledge their feelings, understand their strengths and weaknesses. They will be able to develop a quick response plan as here they would be judged based on their ability to confidently express themselves._
 
 #### Technology used
 
