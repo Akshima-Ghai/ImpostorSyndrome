@@ -10,14 +10,59 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:text="Hello"
+        android:text="Home Page"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:paddingVertical="70dp"
         android:textSize="30sp"
         android:background="@drawable/bg_login"
-        android:layout_marginBottom="25dp"
-        />
+        android:layout_marginBottom="25dp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/green"
+            android:text="SCHOOL STUDENT"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/yellow"
+            android:text="COLLEGE STUDENT"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/green"
+            android:text="WORKING PROFESSIONAL"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@color/yellow"
+            android:text="OTHER" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_margin="20dp"/>
 
 </LinearLayout>
+
+
