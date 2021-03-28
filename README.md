@@ -1,3 +1,4 @@
+
 # HaXplore 2.0 - Submission Report Format
 
 This is the official code repository for _GRYFFINDOR GIRLS_ . This _Imposter Syndrome Application_ was developed during HaXplore 2.0, 
@@ -30,6 +31,10 @@ _Technolgies used : Java for making native Android Application , Android Studio 
 #### Screenshots/Demo Video
 
 [hackathon_gryffindor_girls.pptx](https://github.com/Akshima-Ghai/ImpostorSyndrome/files/6217105/hackathon_gryffindor_girls.pptx)
+
+https://user-images.githubusercontent.com/58785998/112749378-a7c33800-8fdf-11eb-98f5-98fdd4981fbf.mp4
+
+
 
 
 #### Usage
