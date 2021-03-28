@@ -29,10 +29,7 @@ _Technolgies used : Java for making native Android Application , Android Studio 
 
 #### Screenshots/Demo Video
 
-![signup](https://user-images.githubusercontent.com/58785998/112742580-5ac66e00-8fad-11eb-93ec-ff6afd38fa8f.jpeg)
-![login](https://user-images.githubusercontent.com/58785998/112742582-5f8b2200-8fad-11eb-9c22-92a0fa8a357b.jpeg)
-![home_page](https://user-images.githubusercontent.com/58785998/112742586-65810300-8fad-11eb-9353-ed2a5afde785.jpeg)
-![page](https://user-images.githubusercontent.com/58785998/112742589-687bf380-8fad-11eb-86c6-454a204ee5e6.jpeg)
+[hackathon_gryffindor_girls.pptx](https://github.com/Akshima-Ghai/ImpostorSyndrome/files/6217105/hackathon_gryffindor_girls.pptx)
 
 
 #### Usage
